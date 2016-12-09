@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'pacifico';
+	src: url('../fonts/pacifico-webfont.woff2'),
+		 url('../fonts/pacifico-webfont.woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'amble';
+	src: url('../fonts/amble-regular-webfont.woff'),
+		 url('../fonts/amble-regular-webfont.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+h1 { font-family: 'amble'; }
+h2 { font-family: 'pacifico';}
+body {
+	/*background-color:#7190ff;*/
+	padding: 0px 0px;
+	margin: 0;
+}
+.clear {
+	clear: both;
+}
+
+html {
+	background: url(../img/slapbox.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+
+
+ 
+}
+header {
+	color: #000;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 25px;}
+.first {
+	background-color: #575656;
+	padding: 50px;
+}
+.first div.inner-wrap {
+	border: solid 20px #752811;
+	background-color: #093832;
+}
+div.inner-wrap img, div.inner-wrap .text-wrap, div.inner-wrap .list-wrap {
+	width: 28%;
+	float: center;
+	text-align: left; 
+	padding-left: 5%;
+}
+
+
+.right {
+	float: right;
+	width: 30%;
+	padding-right: 2%;
+	color: #000;
+	background-color: rgba(255,255,255, .5);
+}
+
+.left {
+	float: left;
+	width: 30%;
+	color: #000;
+	padding-left: 0%;
+	background-color: rgba(255,255,255, .5);
+
+} 
+.clear {
+	clear: both;
+}
+
+footer {
+	width: 100%;
+	
+}
+
+.bot { 
+	background-color: rgba(255,255,255, .5);
+	padding: 15px 0;
+	text-align: center;	
+}
